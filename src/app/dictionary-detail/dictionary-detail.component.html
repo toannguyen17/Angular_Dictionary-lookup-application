@@ -1,0 +1,14 @@
+Từ khóa: {{ getKey() }}
+<br />
+<div *ngIf="!twig">
+  Tôi không hiểu "{{ getKey() }}"
+
+  <br />
+  <br />
+  "{{ getKey() }}" là gì???
+
+  <input type="text" [formControl]="translation" (keydown.enter)="addTrans()" required="required"/>
+
+
+</div>
+<div *ngIf="twig">{{ trans() }}</div>

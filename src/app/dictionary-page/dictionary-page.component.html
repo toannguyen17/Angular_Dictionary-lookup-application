@@ -1,0 +1,7 @@
+<p>dictionary-page works!</p>
+
+<form [formGroup]="formTrans" (ngSubmit)="onCheck()">
+  <input type="text" formControlName="key" name="key">
+</form>
+
+<router-outlet></router-outlet>

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Dictionary-lookup-application"
+    }
+  },
+  "defaultProject": "Dictionary-lookup-application",
+  "cli": {
+    "analytics": false
+  }
 }
